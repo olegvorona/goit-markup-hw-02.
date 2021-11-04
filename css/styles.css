@@ -1,0 +1,87 @@
+body {
+    font-family: Roboto, sans-serif;
+    color: #212121;
+}
+.item-buttom {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    width: 145px;
+    height: 31px;
+}
+.line {
+    width: 294px;
+    height: 16px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+}
+#nav {
+    color: #2196F3;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+}
+.header-contact {
+    color: #757575;
+    width: 135px;
+    height: 16px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+}
+.buttons {
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    cursor: pointer;
+
+}
+.button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    cursor: pointer;    
+}
+.name {
+    width: 322px;
+    height: 36px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 36px;
+}
+p {
+    color: #757575;
+    width: 322px;
+    height: 30px;
+    font-size: 16px;
+    line-height: 30px;
+}
+footer {
+    color: #fff;
+    width: 231px;
+    height: 21px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+}
+.contact {
+    color: #757575;
+    width: 231px;
+    height: 21px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+}
+#buttom {
+    font-family: Raleway;
+    font-style: normal; 
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    width: 145px;
+    height: 31px;
+}
