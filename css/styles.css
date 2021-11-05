@@ -1,87 +1,146 @@
+:root {
+    --header-title-color: #212121;
+    --contacts-text-color: #757575;
+    --main-btm-color:#212121;
+    --main-text-color: #212121;
+    --main-item-text: #757575;
+    --footer-text-color: #fff;
+    --first-btm-color: #2196F3;
+    --second-btm-color: #000000;
+    --accent-color: #2196F3;
+    --second-accent-color: #fff;
+    --first-footer-btm: #2196F3;
+    --second-footer-btm: #fff;
+    --footer-contact-color: rgba(255, 255, 255, 0.6);
+
+
+
+}
+
 body {
     font-family: Roboto, sans-serif;
     color: #212121;
 }
-.item-buttom {
-    font-family: Raleway;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 26px;
-    line-height: 31px;
-    width: 145px;
-    height: 31px;
-}
-.line {
-    width: 294px;
-    height: 16px;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-}
-#nav {
-    color: #2196F3;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-}
-.header-contact {
-    color: #757575;
-    width: 135px;
-    height: 16px;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-}
-.buttons {
-    color: #fff;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 26px;
-    cursor: pointer;
 
+
+.text {
+list-style: none
 }
-.button {
+.link {
+text-decoration: none;
+}
+/*---------HEADER----------*/
+.header {
+
+    border: rgba(236, 236, 236, 1);
+}
+.header-btm-first {
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--first-btm-color);
+}
+.header-btm {
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--second-btm-color);
+}
+
+.header-item-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.15;
+    letter-spacing: 0.02em;
+    color: var(--header-title-color);
+    }
+
+.header-contact-list {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.15;
+    letter-spacing: 0.02em;
+    color: var(--contacts-text-color);
+}
+.header-item-link:hover,
+.header-item-link:focus {
+    color: var(--accent-color);
+}
+.header-contact-list:hover,
+.header-contact-list:focus {
+    color: var(--accent-color);
+}
+/*---------MAIN----------*/
+
+.main-btm-title {
+    cursor: pointer;
+    font-family: inherit;
+}
+
+.main-btm-title {
     font-weight: 500;
     font-size: 16px;
-    line-height: 26px;
-    cursor: pointer;    
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-btm-color);
 }
-.name {
-    width: 322px;
-    height: 36px;
-    font-weight: bold;
+.main-btm-title:hover,
+.main-btm-title:focus {
+    color: var(--second-accent-color);
+    background-color: var(--accent-color);
+}
+.main-title {
     font-size: 18px;
-    line-height: 36px;
+    line-height: 2.0;
+    letter-spacing: 0.06em;
+    color: var(--main-text-color);
 }
-p {
-    color: #757575;
-    width: 322px;
-    height: 30px;
+.main-text {
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    color: var(--main-item-text);
 }
-footer {
-    color: #fff;
-    width: 231px;
-    height: 21px;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 24px;
+
+/*---------FOOTER----------*/
+
+.footer {
+    background-color: #2F303A;;
 }
-.contact {
-    color: #757575;
-    width: 231px;
-    height: 21px;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 24px;
-}
-#buttom {
+.btm-first {
     font-family: Raleway;
-    font-style: normal; 
-    font-weight: bold;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--first-btm-color);
+}
+
+.footer-link {
+    font-family: Raleway;
+    font-weight: 700;
     font-size: 26px;
     line-height: 31px;
-    width: 145px;
-    height: 31px;
+    letter-spacing: 0.03em;
+    color: var(--second-footer-btm);
+}
+
+.footer-item-text {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--footer-text-color);
+    
+}
+
+.footer-item-link {
+    font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: var(--footer-contact-color);
 }
