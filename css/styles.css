@@ -172,7 +172,7 @@ body {
   text-transform: uppercase;
   color: #ffffff;
 }
-.hero-link {
+.hero-btm {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -183,7 +183,10 @@ body {
   color: var(--index-hero-btm);
   background-color: #2196f3;
 }
-
+.hero-btm {
+  cursor: pointer;
+  font-family: inherit;
+}
 .about-text {
   font-weight: 700;
   font-size: 14px;
