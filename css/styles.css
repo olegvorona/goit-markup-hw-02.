@@ -26,11 +26,10 @@
 body {
   font-family: Roboto, sans-serif;
   color: var(--body-text-color);
-  font-weight: 500;
   font-size: 14px;
   line-height: 1.15;
   letter-spacing: 0.03em;
-  background: #ffffff;
+  background: var(--index-hero-btm);
 }
 
 .text {
@@ -155,6 +154,11 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--footer-contact-color);
+  font-style: normal;
+}
+.footer-item-link:focus,
+.footer-item-link:hover {
+  color: var(--footer-text-color);
 }
 
 /*--------------------------MAIN-INDEX------------------------------*/
