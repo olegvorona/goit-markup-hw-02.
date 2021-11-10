@@ -61,7 +61,6 @@ body {
 
 .header-item-link {
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.15;
   letter-spacing: 0.02em;
   color: var(--header-title-color);
@@ -69,7 +68,6 @@ body {
 
 .header-contact-list {
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.15;
   letter-spacing: 0.02em;
   color: var(--contacts-text-color);
@@ -94,7 +92,6 @@ body {
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--main-btm-color);
 }
 .main-btm-title:hover,
@@ -104,7 +101,7 @@ body {
 }
 .main-btm-title {
   border-radius: 4px;
-  background-color: #f5f4fa;
+  background-color: var(--index-hero-btm);
 }
 .main-title {
   font-size: 18px;
@@ -115,7 +112,6 @@ body {
 .main-text {
   font-size: 16px;
   line-height: 1.87;
-  letter-spacing: 0.03em;
   color: var(--main-item-text);
 }
 
@@ -129,7 +125,6 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
   color: var(--first-btm-color);
 }
 
@@ -138,21 +133,16 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
-  letter-spacing: 0.03em;
   color: var(--second-footer-btm);
 }
 
-.footer-item-text {
-  font-size: 14px;
+.footer-text {
   line-height: 1.71;
-  letter-spacing: 0.03em;
   color: var(--footer-text-color);
 }
 
 .footer-item-link {
-  font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
   color: var(--footer-contact-color);
   font-style: normal;
 }
@@ -193,18 +183,13 @@ body {
 }
 .about-text {
   font-weight: 700;
-  font-size: 14px;
   line-height: 1.15;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--index-main-about-text);
 }
 
 .about-pre-text {
-  font-weight: 400;
-  font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
   color: var(--index-main-pre-text);
 }
 
@@ -213,7 +198,6 @@ body {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--index-gallery-text);
 }
 
@@ -227,7 +211,6 @@ body {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--index-pre-title);
 }
 
@@ -236,15 +219,12 @@ body {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--index-after-title);
 }
 
 .about-title-link {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--index-title-link);
 }
